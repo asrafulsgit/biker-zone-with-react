@@ -4,10 +4,9 @@ import user1 from '../assets/others/user-1.png'
 import user2 from '../assets/others/user-2.png'
 import user3 from '../assets/others/user-3.png'
 
-
 const Testimonial = () => {
   return (
-    <div className='my-8 sm:my-10'>
+     <div className='my-8 sm:my-10'>
               <h1 className='text-3xl sm:text-5xl font-semibold text-center'>Happy <span className='text-[#E76F51]'>Clients says</span></h1>
           <div className='sm:grid sm:grid-cols-3 md:gap-3 mt-8 sm:mt-15 space-y-5 sm:space-y-0 '>
                <div className="card py-5 px-2 border-[1px] border-[#DEDEDE] bg-base-100 lg:w-72 md:w-60 sm:w-45 p-1 md:2 lg:3 xl:4  mx-auto">
